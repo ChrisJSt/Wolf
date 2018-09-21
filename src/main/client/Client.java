@@ -80,7 +80,7 @@ public class Client {
 
 		this.username = username;
 		this.password = password;
-		if (username.equalsIgnoreCase(Constants.Chris) /*|| username.equalsIgnoreCase(Constants.testUserName)*/ 
+		if (username.equalsIgnoreCase(Constants.Chris) || username.equalsIgnoreCase("unnamed_days")
 				|| username.equalsIgnoreCase("belma_dub")) {
 			this.proxy = false;
 		}
